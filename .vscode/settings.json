@@ -1,16 +1,18 @@
 {
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": true,
-  "editor.fontSize": 24,
-  "debug.console.fontSize": 24,
-  "terminal.integrated.fontSize": 24,
+  "editor.fontSize": 18,
+  "debug.console.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
   "editor.glyphMargin": true,
   "workbench.activityBar.location": "default",
   "editor.lineNumbers": "on",
   "files.eol": "\n", // Final de linha sempre será LF
   "workbench.editor.labelFormat": "short",
-  "editor.tabSize": 2,
-  "editor.rulers": [79, 120],
+  "editor.tabSize": 4,
+  "editor.tabCompletion": "on",
+  "editor.rulers": [79, 90],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "explorer.compactFolders": false,
@@ -32,7 +34,6 @@
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
-    "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.ruff": "explicit",
@@ -45,6 +46,13 @@
   "python.terminal.activateEnvironment": true,
   "python.languageServer": "Pylance",
   "python.venvPath": ".venv",
+
+  // extension pytest explorer
+  // these settings are 'false' by default, so removing those should also work
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": false,
+  "pythonTestExplorer.testFramework": "pytest", // (or unittest
 
   // 🛠 Formatação e Lint
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -75,6 +83,57 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[csv]": {
+    "editor.defaultFormatter": "mechatroner.rainbow-csv"
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": "on",
+      "strings": true
+    }
+  },
+  "[dockerfile]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[makefile]": {
+    "editor.insertSpaces": false
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "[sql]": {
+    "editor.tabSize": 2
+  },
+  "Prettier-SQL.commaPosition": "after",
+  "Prettier-SQL.indentStyle": "standard",
+  "Prettier-SQL.ignoreTabSettings": false,
+
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "auto", // never
+    "editor.quickSuggestions": {
+      "strings": true,
+      "other": true,
+      "comments": false
+    }
+  },
   "[django-html]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -83,5 +142,25 @@
       "comments": true,
       "strings": true
     }
-  }
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  // Number of seconds the list of `.gitignore` files retrieved from github will be cached
+  "gitignore.cacheExpirationInterval": 3600
 }
