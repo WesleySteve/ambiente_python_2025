@@ -28,6 +28,7 @@
     "inferrinizzard.prettier-sql-vscode",
     "ms-azuretools.vscode-docker",
     "codezombiech.gitignore",
-    "tal7aouy.rainbow-bracket"
+    "tal7aouy.rainbow-bracket",
+    "ms-pyright.pyright"
   ]
 }
