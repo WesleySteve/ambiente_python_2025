@@ -30,6 +30,7 @@
     "codezombiech.gitignore",
     "tal7aouy.rainbow-bracket",
     "ms-pyright.pyright",
-    "ms-kubernetes-tools.vscode-kubernetes-tools"
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "dbtlabsinc.dbt"
   ]
 }
