@@ -12,7 +12,7 @@
   "editor.tabSize": 4,
   "editor.tabCompletion": "on",
   "editor.rulers": [79, 90],
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "bash",
   "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "explorer.compactFolders": false,
@@ -40,7 +40,7 @@
       "source.organizeImports.ruff": "explicit"
     }
   },
-  "python.defaultInterpreterPath": ".\\.venv\\Scripts\\python.exe", // ou ./.venv/bin/python Mac/Linux
+  "python.defaultInterpreterPath": ".venv/bin/python",  // ou ".\\.venv\\Scripts\\python.exe"
   "python.analysis.autoImportCompletions": true,
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.terminal.activateEnvironment": true,
@@ -143,24 +143,9 @@
       "strings": true
     }
   },
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "path": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
-      "args": ["--login", "-i"]
-    }
-  },
   // Number of seconds the list of `.gitignore` files retrieved from github will be cached
-  "gitignore.cacheExpirationInterval": 3600
+  "gitignore.cacheExpirationInterval": 3600,
+  
+  "vscode-kubernetes.kubectl-path": "/home/wesley/kubernetes/bin/kubectl"
 }
+
