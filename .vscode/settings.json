@@ -40,7 +40,7 @@
       "source.organizeImports.ruff": "explicit"
     }
   },
-  "python.defaultInterpreterPath": ".venv/bin/python",  // ou ".\\.venv\\Scripts\\python.exe"
+  "python.defaultInterpreterPath": ".venv/bin/python", // ou ".\\.venv\\Scripts\\python.exe"
   "python.analysis.autoImportCompletions": true,
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.terminal.activateEnvironment": true,
@@ -145,7 +145,6 @@
   },
   // Number of seconds the list of `.gitignore` files retrieved from github will be cached
   "gitignore.cacheExpirationInterval": 3600,
-  
+
   "vscode-kubernetes.kubectl-path": "/home/wesley/kubernetes/bin/kubectl"
 }
-
