@@ -2,36 +2,41 @@
   "recommendations": [
     "ms-python.python",
     "tamasfe.even-better-toml",
-    "esbenp.prettier-vscode",
     "charliermarsh.ruff",
     "formulahendry.code-runner",
     "bradlc.vscode-tailwindcss",
-    "omthemes.omthemes",
-    "chadalen.vscode-jetbrains-icon-theme",
+    "omthemes.omthemes", // tema
+    "chadalen.vscode-jetbrains-icon-theme", // icones
 
     // novas
-    "ms-toolsai.jupyter",
-    "ms-playwright.playwright",
-    "littlefoxteam.vscode-python-test-adapter",
-    "eamodio.gitlens",
-    "redhat.vscode-yaml",
-    "mechatroner.rainbow-csv",
-    "editorconfig.editorconfig",
-    "yzhang.markdown-all-in-one",
-    "bierner.markdown-preview-github-styles",
-    "davidanson.vscode-markdownlint",
-    "mikestead.dotenv",
-    "grapecity.gc-excelviewer",
-    "alexcvzz.vscode-sqlite",
-    "johnpapa.vscode-peacock",
-    "zainchen.json",
-    "inferrinizzard.prettier-sql-vscode",
-    "ms-azuretools.vscode-docker",
-    "codezombiech.gitignore",
-    "tal7aouy.rainbow-bracket",
-    "ms-pyright.pyright",
-    "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "dbtlabsinc.dbt",
-    "adpyke.codesnap"
+    "ms-toolsai.jupyter", // definir celular jupyter notebook
+    "ms-playwright.playwright", // ferramenta de test para python
+    "littlefoxteam.vscode-python-test-adapter", // tela de test python
+    "eamodio.gitlens", // checar modificacoes de git
+    "redhat.vscode-yaml", // ajustar yaml
+    "mechatroner.rainbow-csv", // ajustar csv
+    "editorconfig.editorconfig", // definir configuracoes padroes
+    "yzhang.markdown-all-in-one", //
+    "bierner.markdown-preview-github-styles", // visualizar makdown online
+    "davidanson.vscode-markdownlint", // ajuste no markdown
+    "mikestead.dotenv", //
+    "grapecity.gc-excelviewer", //
+    "alexcvzz.vscode-sqlite", // conexao com sqlite
+    "johnpapa.vscode-peacock", // configurando cores do vscode por linguagem
+    "zainchen.json", //
+    "inferrinizzard.prettier-sql-vscode", // ajuste de espaçamento para sql
+    "ms-azuretools.vscode-docker", // auxiliar nos container docker
+    "codezombiech.gitignore", // adicionr .gitignore config
+    "tal7aouy.rainbow-bracket", // colorir os pares de {} [] ()
+    "ms-pyright.pyright", // formatador para python
+    "ms-kubernetes-tools.vscode-kubernetes-tools", //
+    "dbtlabsinc.dbt", //
+    "adpyke.codesnap", // print de codigo
+    "naumovs.color-highlight", // cor hexdecimal no css
+    "styled-components.vscode-styled-components", // para style react
+    "dbaeumer.vscode-eslint", // formatador de codigo
+    "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries", //
+    "miguelsolorio.symbols" //
+
   ]
 }
