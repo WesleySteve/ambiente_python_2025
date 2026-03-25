@@ -46,6 +46,15 @@
       "source.fixAll.eslint": "explicit"
     },
   },
+  "[xml]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
 
   // Python
   "[python]": {
@@ -69,34 +78,13 @@
   "python.testing.unittestEnabled": false,
   "python.testing.nosetestsEnabled": false,
   "python.testing.pytestEnabled": false,
-  "pythonTestExplorer.testFramework": "pytest", // (or unittest
-
-  // 🛠 Formatação e Lint
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "editor.formatOnSave": true,
+  "pythonTestExplorer.testFramework": "pytest",
 
   "emmet.includeLanguages": {
     "django-html": "html",
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-  /*
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[svg]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  */
   "[csv]": {
     "editor.defaultFormatter": "mechatroner.rainbow-csv"
   },

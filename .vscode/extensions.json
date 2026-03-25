@@ -36,7 +36,8 @@
     "styled-components.vscode-styled-components", // para style react
     "dbaeumer.vscode-eslint", // formatador de codigo
     "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries", //
-    "miguelsolorio.symbols" //
+    "miguelsolorio.symbols", //
+    "rocketseat.rocketseatreactjs" // configuracoes para reactjs
 
   ]
 }
